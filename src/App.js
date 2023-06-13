@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Main from './components/main';
+import Header from './components/sections/header';
+import Main from './components/sections/main';
+
 
 function App() {
   return (
-    <Main />
+    <div>
+      <Header />
+      <Main />
+    </div>
   );
 }
 

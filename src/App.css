@@ -1,0 +1,36 @@
+.fondo-de-img {
+  background-image: url(./components/media/slider-1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+.h2-title {
+  color: #fc5204;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 39px;
+}
+.parrafo-comun {
+  color: #343434;
+  font-size: 1rem;
+}
+
+.texto {
+  left: 100px;
+  top: 140px;
+}
+
+.my-custom-top-30 {
+  position: relative;
+  top: 25%;
+  width: 75%;
+  opacity: 0.8;
+}
+.marg {
+  margin-left: 95px;
+  padding-left: 12px;
+}
