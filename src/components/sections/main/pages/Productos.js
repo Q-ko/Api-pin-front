@@ -2,7 +2,7 @@
 import chicoCorriendo from '../../../media/img-page-3.png'
 
 
-function Element2(promps) {
+function Productos(promps) {
     return (
 
         <div class="position-relative">
@@ -11,7 +11,7 @@ function Element2(promps) {
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Accordion Item #1
+                                Accordion Item 1
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -56,4 +56,4 @@ function Element2(promps) {
 
 
 
-export default Element2; 
+export default Productos; 
