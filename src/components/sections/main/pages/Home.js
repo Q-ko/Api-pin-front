@@ -1,6 +1,6 @@
 function PagePrincipal(promps) {
     return (
-        <div className="d-flex flex-column vh-100 ">
+        <div className="d-flex flex-column vh-100">
             <div className="container d-flex flex-column justify-content-center h-100 ">
                 <div className="row d-flex flex-column align-items-start justify-content-center mb-3">
                     <div className="col-12 col-lg-6">

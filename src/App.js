@@ -13,8 +13,8 @@ import {
 } from "react-router-dom";
 import AlgoMas from './components/sections/main/pages/AlgoMas';
 import Contacto from './components/sections/main/pages/Contacto';
-import Nav from './components/sections/header/components/Nav';
 import { useState } from 'react';
+import Nav from './components/sections/header/components/Nav';
 
 
 
@@ -30,27 +30,15 @@ function App() {
   console.log(isHome)
 
   return (
+    <div className={isHome ? 'fondo-de-img height' : ''} >
+      <header>
+        <Nav setIsHome={setIsHome} />
+      </header>
+      <main className='main'>
+        <Outlet />
 
-    <>
-      <div className={isHome ? 'fondo-de-img' : ''}>
-        <header>
-          <Nav setIsHome={setIsHome} />
-        </header>
-        <main>
-          <Outlet />
-
-        </main>
-      </div>
-
-
-
-
-
-
-
-    </>
-
-
+      </main>
+    </div>
   );
 
 }
