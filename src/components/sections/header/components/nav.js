@@ -12,7 +12,10 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg d-flex felx-column">
       <div class="container">
-        <Barnd nameBrand="CHILLING" />
+        <a class="navbar-brand" href="#">
+          CHILLING
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -46,19 +49,5 @@ function Nav() {
     </nav>
   );
 }
-
-function Barnd(promps) {
-  return (
-    <a class="navbar-brand" href="#">
-      {promps.nameBrand}
-    </a>
-  );
-}
-
-/* function Links(promps) {
-    return (
-        <a class="nav-link" href="#">{promps.nameLink}</a>
-    )
-} */
 
 export default Nav;

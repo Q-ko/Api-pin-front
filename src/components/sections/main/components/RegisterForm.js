@@ -1,11 +1,4 @@
-function RegisterForm({
-  handleChange,
-  handleSubmit,
-  userData,
-  handleBlur,
-  existMail,
-  showDiv,
-}) {
+function RegisterForm(promps) {
   return (
     <div className="container-fluid d-flex flex-column justify-content-center h-100">
       <div className="row d-flex justify-content-center h-100">
@@ -16,7 +9,7 @@ function RegisterForm({
             </div>
 
             <div>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={promps.handleSubmit}>
                 <div className="mb-3">
                   <label for="email" class="form-label">
                     Email address
@@ -26,16 +19,16 @@ function RegisterForm({
                     className="form-control"
                     id="email"
                     aria-describedby="emailHelp"
-                    onChange={handleChange}
-                    value={userData.email}
-                    onBlur={handleBlur}
+                    onChange={promps.handleChange}
+                    value={promps.userData.email}
+                    onBlur={promps.handleBlur}
                   />
                   <div id="emailHelp" className="form-text">
                     Presione Enter para verificar el email
                   </div>
                 </div>
 
-                {showDiv && !existMail && (
+                {promps.showDiv && !promps.existMail && (
                   <div>
                     <div className="mb-3">
                       <label for="nombre" className="form-label">
@@ -45,8 +38,8 @@ function RegisterForm({
                         type="text"
                         className="form-control"
                         id="nombre"
-                        onChange={handleChange}
-                        value={userData.nombre}
+                        onChange={promps.handleChange}
+                        value={promps.userData.nombre}
                         autoFocus
                       />
                     </div>
@@ -58,14 +51,14 @@ function RegisterForm({
                         type="number"
                         className="form-control"
                         id="telefono"
-                        onChange={handleChange}
-                        value={userData.telefono}
+                        onChange={promps.handleChange}
+                        value={promps.userData.telefono}
                       />
                     </div>
                   </div>
                 )}
 
-                {showDiv && existMail && (
+                {promps.showDiv && promps.existMail && (
                   <div>
                     <h1>
                       Es un gusto volver a verte por aca! En que podemos
@@ -82,8 +75,8 @@ function RegisterForm({
                     type="text"
                     className="form-control"
                     id="comentario"
-                    onChange={handleChange}
-                    value={userData.comentario}
+                    onChange={promps.handleChange}
+                    value={promps.userData.comentario}
                   />
                 </div>
 
