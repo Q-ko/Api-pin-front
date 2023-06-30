@@ -28,14 +28,14 @@ function Form(params) {
 
     const email = event.target.value;
     axios
-      .get(`http://localhost/Api-pin/public/api/mail-existe/${email}`)
+      .get(`http://localhost/Pin-Laravel/public/api/mail-existe/${email}`)
       .then((response) => {
         if (response.data.mensaje === "Existe") {
           setExistMail(true);
           setShowDiv(true);
           return axios
             .get(
-              `http://localhost/Api-pin/public/api/rellenar-formulario/${email}`
+              `http://localhost/Pin-Laravel/public/api/rellenar-formulario/${email}`
             )
             .then((response) => {
               const nombre = response.data.datos;
