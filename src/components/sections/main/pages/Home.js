@@ -1,6 +1,6 @@
-import primerSlide from "../../../media/slide-1.jpg";
-import segundoSlide from "../../../media/slide-2.jpg";
-import tercerSlide from "../../../media/slide-4.jpg";
+import primerSlide from "../../../media/slide-1.webp";
+import segundoSlide from "../../../media/slide-2.webp";
+import tercerSlide from "../../../media/slide-3.webp";
 
 function PagePrincipal(promps) {
   return (
