@@ -38,7 +38,7 @@ function Form(params) {
               `http://localhost/Pin-Laravel/public/api/rellenar-formulario/${email}`
             )
             .then((response) => {
-              const nombre = response.data.datos;
+              const nombre = response.data.nombre;
               console.log(nombre); // Verificar el valor del nombre recibido
               setUserData((prevUserData) => ({
                 ...prevUserData,
