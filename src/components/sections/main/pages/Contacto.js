@@ -67,7 +67,10 @@ function Form(params) {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost/Api-pin/public/api/registro-cliente", userData)
+      .post(
+        "http://localhost/Pin-Laravel/public/api/registro-cliente",
+        userData
+      )
       .then((response) => {
         setUserData({ nombre: "", email: "", telefono: "", comentario: "" });
         setSuccess(true);
