@@ -1,24 +1,31 @@
 
-$primary: #343434;
+$primary: #3A3A3F;
+$secondary:     #454555;
+$light:         #AAAABC;
+$success:       #433924;
+$info:          #746851;
+$warning:       #1D595E;
+
 
 
 header{
   position: absolute;
   z-index: 999;
   nav{
+    .container{
+      color: #AAAABC;
+    }
     background-color: transparent;
   }
 }
 
 main{
-  
-  .fondo-de-img{
-  background-image: url(./components/media/slider-1.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  .h2-title {
+    color: #fc5204;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 39px;
   }
-
   .my-custom-top-30 {
     position: relative;
     top: 25%;
@@ -59,12 +66,7 @@ main{
 //   background-color: transparent !important;
 // }
 
-.h2-title {
-  color: #fc5204;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 39px;
-}
+
 // .parrafo-comun {
 //   color: #343434;
 //   font-size: 1rem;
