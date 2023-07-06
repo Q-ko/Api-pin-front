@@ -12,7 +12,7 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg d-flex felx-column">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand text-info" href="#">
           CHILLING
         </a>
 
@@ -30,16 +30,20 @@ function Nav() {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="d-felx w-100">
             <div class="navbar-nav d-flex justify-content-end w-100">
-              <NavLink to="/" className="nav-link active" aria-current="page">
+              <NavLink
+                to="/"
+                className="nav-link text-info active"
+                aria-current="page"
+              >
                 Home
               </NavLink>
-              <NavLink to="/productos" className="nav-link">
+              <NavLink to="/productos" className="nav-link text-info">
                 Productos
               </NavLink>
-              <NavLink to="/nosotros" className="nav-link">
+              <NavLink to="/nosotros" className="nav-link text-info">
                 Nosotros
               </NavLink>
-              <NavLink to="/contacto" className="nav-link">
+              <NavLink to="/contacto" className="nav-link text-info">
                 Contacto
               </NavLink>
             </div>

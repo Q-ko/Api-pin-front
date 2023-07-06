@@ -1,11 +1,11 @@
 function RegisterForm(promps) {
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center h-100">
+    <div className="w-100 d-flex flex-column justify-content-center h-100">
       <div className="row d-flex justify-content-center h-100">
         <div className="col-12 col-lg-6 d-flex align-items-center">
           <div className="row">
             <div className="col-12 col-lg-8 d-flex mb-3">
-              <h2 className="h2-title">Contacto</h2>
+              <h2 className="h2-title fw-bolder">Contacto</h2>
             </div>
 
             <div>
@@ -61,8 +61,8 @@ function RegisterForm(promps) {
                 {promps.showDiv && promps.existMail && (
                   <div>
                     <h1>
-                      Es un gusto volver a verte por aca! En que podemos
-                      ayudarte?
+                      Es un gusto volver a verte por aca!,{" "}
+                      {promps.userData.nombre} en que podemos ayudarte?
                     </h1>
                   </div>
                 )}

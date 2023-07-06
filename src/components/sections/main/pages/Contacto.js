@@ -30,7 +30,7 @@ function Form(params) {
     axios
       .get(`http://localhost/Pin-Laravel/public/api/mail-existe/${email}`)
       .then((response) => {
-        if (response.data.mensaje === "Existe") {
+        if (response.data.existe) {
           setExistMail(true);
           setShowDiv(true);
           return axios
@@ -40,10 +40,7 @@ function Form(params) {
             .then((response) => {
               const nombre = response.data.nombre;
               console.log(nombre); // Verificar el valor del nombre recibido
-              setUserData((prevUserData) => ({
-                ...prevUserData,
-                nombre: nombre,
-              }));
+              setUserData({ ...userData, nombre: nombre });
               console.log(userData);
               /* .then((response) => {
               const nombre = response.data.datos;
@@ -83,7 +80,7 @@ function Form(params) {
   };
 
   return (
-    <div>
+    <div className="container-fluid d-flex flex-column justify-content-center h-100">
       <RegisterForm
         userData={userData}
         handleChange={handleChange}
