@@ -7,15 +7,15 @@ function PagePrincipal(promps) {
   return (
     <div
       id="carouselExampleIndicators"
-      class="carousel slide carousel-fade h-100"
+      className="carousel slide carousel-fade h-100"
       data-bs-ride="carousel"
     >
-      <div class="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -32,38 +32,44 @@ function PagePrincipal(promps) {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner h-100">
-        <div class="carousel-item h-100  active" data-bs-interval="4000">
+      <div className="carousel-inner h-100">
+        <div className="carousel-item h-100  active" data-bs-interval="4000">
           <TextoDeBienvenida />
-          <img src={primerSlide} class="d-block w-100 h-100" alt="..." />
+          <img src={primerSlide} className="d-block w-100 h-100" alt="..." />
         </div>
-        <div class="carousel-item h-100" data-bs-interval="4000">
+        <div className="carousel-item h-100" data-bs-interval="4000">
           <TextoDeBienvenida />
-          <img src={segundoSlide} class="d-block w-100 h-100" alt="..." />
+          <img src={segundoSlide} className="d-block w-100 h-100" alt="..." />
         </div>
-        <div class="carousel-item h-100" data-bs-interval="4000">
+        <div className="carousel-item h-100" data-bs-interval="4000">
           <TextoDeBienvenida />
-          <img src={tercerSlide} class="d-block w-100 h-100" alt="..." />
+          <img src={tercerSlide} className="d-block w-100 h-100" alt="..." />
         </div>
       </div>
       <div className="">
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

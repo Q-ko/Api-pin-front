@@ -89,14 +89,15 @@ function Form(params) {
         existMail={existMail}
         showDiv={showDiv}
       />
+
       {success && (
-        <div class="alert alert-success" role="alert">
+        <div className="alert alert-success" role="alert">
           Tu solicitud fue enviada con exito!
         </div>
       )}
 
       {error && (
-        <div class="alert alert-danger" role="alert">
+        <div className="alert alert-danger" role="alert">
           Tuvimos un problema para procesar tu solicitud!
         </div>
       )}
