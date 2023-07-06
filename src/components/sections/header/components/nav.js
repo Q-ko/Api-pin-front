@@ -1,23 +1,22 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-import {
-  BrowserRouter,
-  Route,
-  NavLink,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg d-flex felx-column">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          CHILLING
-        </a>
+    <nav className="navbar navbar-expand-lg d-flex felx-column">
+      <div className="container">
+        {/* <a className="navbar-brand" href="#">
+          CHILLING REAL STATE
+        </a> */}
+        <div>
+          <NavLink to="/" className="navbar-brand" aria-current="page">
+            CHILLING REAL STATE
+          </NavLink>
+        </div>
 
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -25,13 +24,16 @@ function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="d-felx w-100">
-            <div class="navbar-nav d-flex justify-content-end w-100">
-              <NavLink to="/" className="nav-link active" aria-current="page">
+            <div className="navbar-nav d-flex justify-content-end w-100">
+              <NavLink to="/" className="nav-link" aria-current="page">
                 Home
+              </NavLink>
+              <NavLink to="/servicios" className="nav-link">
+                Servicios
               </NavLink>
               <NavLink to="/productos" className="nav-link">
                 Productos

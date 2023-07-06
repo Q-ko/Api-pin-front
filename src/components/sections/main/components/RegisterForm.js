@@ -61,8 +61,8 @@ function RegisterForm(promps) {
                 {promps.showDiv && promps.existMail && (
                   <div>
                     <h1>
-                      Es un gusto volver a verte por aca! En que podemos
-                      ayudarte?
+                      Es un gusto volver a verte por aca!
+                      {promps.userData.nombre} En que podemos ayudarte?
                     </h1>
                   </div>
                 )}

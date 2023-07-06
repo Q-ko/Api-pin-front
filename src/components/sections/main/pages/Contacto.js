@@ -30,7 +30,7 @@ function Form(params) {
     axios
       .get(`http://localhost/Pin-Laravel/public/api/mail-existe/${email}`)
       .then((response) => {
-        if (response.data.mensaje === "Existe") {
+        if (response.data.existe) {
           setExistMail(true);
           setShowDiv(true);
           return axios
@@ -40,10 +40,7 @@ function Form(params) {
             .then((response) => {
               const nombre = response.data.nombre;
               console.log(nombre); // Verificar el valor del nombre recibido
-              setUserData((prevUserData) => ({
-                ...prevUserData,
-                nombre: nombre,
-              }));
+              setUserData({ ...userData, nombre: nombre });
               console.log(userData);
               /* .then((response) => {
               const nombre = response.data.datos;
@@ -92,14 +89,15 @@ function Form(params) {
         existMail={existMail}
         showDiv={showDiv}
       />
+
       {success && (
-        <div class="alert alert-success" role="alert">
+        <div className="alert alert-success" role="alert">
           Tu solicitud fue enviada con exito!
         </div>
       )}
 
       {error && (
-        <div class="alert alert-danger" role="alert">
+        <div className="alert alert-danger" role="alert">
           Tuvimos un problema para procesar tu solicitud!
         </div>
       )}

@@ -6,20 +6,34 @@ $success:       #433924;
 $info:          #746851;
 $warning:       #1D595E;
 
-
+@font-face {
+  font-family: Logo;
+  src: url(./components/fonts/MOODERN.ttf);
+}
 
 header{
   position: absolute;
   z-index: 999;
+
   nav{
+    
+    
+    background-color: transparent;
     .container{
       color: #AAAABC;
     }
-    background-color: transparent;
+    .nav-link{
+      color: $warning;
+    }
+    .navbar-brand{
+      font-family: Logo, Arial, sans-serif;
+      font-size: x-large;
+    }
   }
 }
 
 main{
+  
   .h2-title {
     color: #fc5204;
     font-family: "Poppins", sans-serif;
@@ -31,6 +45,13 @@ main{
     top: 25%;
     width: 75%;
     opacity: 0.8;
+  }
+  .mt-navbar {
+    padding-top: 150px; /* Valor predeterminado para pantallas de escritorio */
+  
+    @media (max-width: 767px) { /* Estilo para pantallas móviles */
+      padding-top: 55px; /* Valor de margen reducido para pantallas móviles */
+    }
   }
 }
 
