@@ -18,10 +18,11 @@ header{
   position: absolute;
   z-index: 999;
   nav{
-    .container{
-      color: #AAAABC;
-    }
     background-color: transparent;
+    .tamño-brand{
+      max-width: 400px;
+      height: auto;
+    }
   }
 }
 
@@ -41,6 +42,10 @@ main{
     &.active {
       animation-duration: 6s; // Cambia este valor al tiempo deseado en segundos
     }
+  }
+
+  .img-nos{
+    background-image: url(components/media/nosotros.jpg);
   }
 }
 

@@ -8,7 +8,7 @@ function App() {
       <header className="w-100">
         <Nav />
       </header>
-      <main className="main-padding h-100">
+      <main className="d-felx flex-column w-100 h-100">
         <Outlet />
       </main>
     </div>

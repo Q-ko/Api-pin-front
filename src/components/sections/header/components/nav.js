@@ -5,11 +5,15 @@ import logoSmall from "../../../media/logo_small.png";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg d-flex felx-column">
-      <div className="container">
-        <div>
+    <nav className="navbar navbar-expand-lg d-flex w-100 ">
+      <div className="container w-100">
+        <div className="w-75">
           <NavLink to="/" className="navbar-brand" aria-current="page">
-            <img src={logoSmall} alt="Chilling Real State" />
+            <img
+              src={logoSmall}
+              alt="Chilling Real State"
+              className="tamño-brand w-50"
+            />
           </NavLink>
         </div>
 
