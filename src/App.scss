@@ -1,56 +1,76 @@
-
 $primary: #3A3A3F;
-$secondary:     #454555;
-$light:         #AAAABC;
-$success:       #433924;
-$info:          #746851;
-$warning:       #1D595E;
+$secondary: #454555;
+$light: #AAAABC;
+$success: #433924;
+$info: #746851;
+$warning: #1D595E;
+$border: #BF8924;
 
 @font-face {
   font-family: Logo;
   src: url(./components/fonts/MOODERN.ttf);
 }
 
-header{
+header {
   position: absolute;
   z-index: 999;
 
-  nav{
-    
-    
+  nav {
+
+
     background-color: transparent;
-    .container{
+
+    .container {
       color: #AAAABC;
     }
-    .nav-link{
+
+    .nav-link {
       color: $warning;
     }
-    .navbar-brand{
+
+    /* .navbar-brand {
       font-family: Logo, Arial, sans-serif;
-      font-size: x-large;
-    }
+      font-size: xx-large;
+      -webkit-text-stroke: 1px $border;
+      letter-spacing: 2px;
+      font-weight: 600;
+    } */
   }
 }
 
-main{
-  
+main {
+
+  .img-nos {
+    background-image: url("./components/media/nosotros.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+
+  }
+
   .h2-title {
     color: #fc5204;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 39px;
   }
+
   .my-custom-top-30 {
     position: relative;
     top: 25%;
     width: 75%;
     opacity: 0.8;
   }
+
   .mt-navbar {
-    padding-top: 150px; /* Valor predeterminado para pantallas de escritorio */
-  
-    @media (max-width: 767px) { /* Estilo para pantallas móviles */
-      padding-top: 55px; /* Valor de margen reducido para pantallas móviles */
+    padding-top: 80px;
+    /* Valor predeterminado para pantallas de escritorio */
+
+    @media (max-width: 767px) {
+      /* Estilo para pantallas móviles */
+      padding-top: 55px;
+      /* Valor de margen reducido para pantallas móviles */
     }
   }
 }
@@ -104,6 +124,7 @@ main{
   width: 75%;
   opacity: 0.8;
 }
+
 // .marg {
 //   margin-left: 95px;
 //   padding-left: 12px;

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { NavLink } from "react-router-dom";
+import logoSmall from "../../../media/logo_small.png";
 
 function Nav() {
   return (
@@ -11,7 +12,7 @@ function Nav() {
         </a> */}
         <div>
           <NavLink to="/" className="navbar-brand" aria-current="page">
-            CHILLING REAL STATE
+            <img src={logoSmall} alt="Chilling Real State" />
           </NavLink>
         </div>
 

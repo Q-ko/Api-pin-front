@@ -1,6 +1,6 @@
 function Nosotros(promps) {
   return (
-    <div>
+    <div className="img-nos">
       <div className="container-fluid d-flex flex-column justify-content-center h-100 mt-navbar">
         <div className="row d-flex justify-content-center h-100">
           <div className="col-12 col-lg-6 d-flex align-items-center">
