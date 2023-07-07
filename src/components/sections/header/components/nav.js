@@ -30,14 +30,18 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="d-felx w-100">
-            <div className="navbar-nav d-flex justify-content-end w-100">
-              <NavLink to="/" className="nav-link" aria-current="page">
+            <div className="navbar-nav d-flex justify-content-end w-100 ">
+              <NavLink
+                to="/"
+                className="nav-link text-info active"
+                aria-current="page"
+              >
                 Home
               </NavLink>
-              <NavLink to="/servicios" className="nav-link">
+              <NavLink to="/servicios" className="nav-link text-info">
                 Servicios
               </NavLink>
-              <NavLink to="/productos" className="nav-link">
+              <NavLink to="/productos" className="nav-link text-info">
                 Productos
               </NavLink>
               <NavLink to="/nosotros" className="nav-link text-info">
