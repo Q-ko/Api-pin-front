@@ -13,26 +13,32 @@ $h1-font-size:                $font-size-base * 2.5;
 $h2-font-size:                $font-size-base * 2.5;
 $h3-font-size:                $font-size-base * 1.75;
 
+@font-face {
+  font-family: 'fuente-eslogan';
+  src: url('./components/fonts/MOODERN.ttf') format('truetype');
+  /* Otras propiedades de la fuente, como font-weight y font-style, si es necesario */
+}
+
 $spacer: 1rem;
 $spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 5,
+  3: $spacer * 3,
+  4: $spacer * 8,
+  5: $spacer * 10,
 );
 
 .pt-sm-3 {
-  padding-top: ($spacer * 20) !important;
+  padding-top: $spacer * 4 !important;
 }
 
 .pt-md-4 {
-  padding-top: ($spacer * 40) !important;
+  padding-top: $spacer * 4 !important;
 }
 
 .pt-lg-5 {
-  padding-top: ($spacer * 50) !important;
+  padding-top: $spacer * 5 !important;
 }
 
 
@@ -52,7 +58,7 @@ header{
 
 main{
   .h2-title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'fuente-eslogan', sans-serif;
   }
   .my-custom-top-30 {
     position: relative;

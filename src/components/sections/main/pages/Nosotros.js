@@ -5,7 +5,7 @@ function Nosotros(promps) {
         <div className="row d-flex flex-column align-items-start justify-content-center pt-lg-5 pt-md-4 pt-sm-3  h-25">
           <div className="col-12 col-lg-6 h-100">
             <h2 className="h2-title text-info h-100">
-              AQUI LA PAGINA MAS BUENA DEL MUNDO
+              Forjando hogares de ensueño con confianza y legado
             </h2>
           </div>
         </div>
