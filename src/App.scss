@@ -16,6 +16,8 @@ $h3-font-size:                $font-size-base * 1.75;
 @font-face {
   font-family: 'fuente-eslogan';
   src: url('./components/fonts/MOODERN.ttf') format('truetype');
+   font-family: 'fuente-nav';
+  src: url('./components/fonts/Modern-Age.ttf') format('truetype');
   /* Otras propiedades de la fuente, como font-weight y font-style, si es necesario */
 }
 
@@ -52,6 +54,9 @@ header{
     .tamño-brand{
       max-width: 400px;
       height: auto;
+    }
+    .nav-link{
+      font-family: 'fuente-nav', sans-serif;;
     }
   }
 }
