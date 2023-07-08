@@ -35,16 +35,16 @@ function PagePrincipal(promps) {
       <div className="carousel-inner w-100 h-100">
         <div
           className="carousel-item h-100 w-100 active"
-          data-bs-interval="4000"
+          data-bs-interval="3000"
         >
           <TextoDeBienvenida />
           <img src={primerSlide} className="d-block w-100 h-100" alt="..." />
         </div>
-        <div className="carousel-item w-100 h-100" data-bs-interval="4000">
+        <div className="carousel-item w-100 h-100" data-bs-interval="3000">
           <TextoDeBienvenida />
           <img src={segundoSlide} className="d-block w-100 h-100" alt="..." />
         </div>
-        <div className="carousel-item w-100 h-100" data-bs-interval="4000">
+        <div className="carousel-item w-100 h-100" data-bs-interval="3000">
           <TextoDeBienvenida />
           <img src={tercerSlide} className="d-block w-100 h-100" alt="..." />
         </div>

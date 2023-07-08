@@ -1,9 +1,13 @@
 function CarouselDeTexto(promps) {
   return (
     <div className="position-absolute bg-warning bottom-0 end-0 w-50 h-50">
-      <div id="ccc" class="carousel slide w-100 h-100 d-flex">
+      <div
+        id="ccc"
+        class="carousel slide w-100 h-100 d-flex"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner align-self-center px-3">
-          <div className="carousel-item active">
+          <div className="carousel-item active" data-bs-interval="1000">
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
@@ -17,7 +21,7 @@ function CarouselDeTexto(promps) {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="1000">
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
@@ -31,7 +35,7 @@ function CarouselDeTexto(promps) {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="1000">
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
