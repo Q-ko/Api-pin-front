@@ -1,15 +1,15 @@
 function CarouselDeTexto(promps) {
   return (
-    <div className="position-absolute bg-success bottom-0 end-0 w-50 h-50">
+    <div className="position-absolute bg-warning bottom-0 end-0 w-50 h-50">
       <div id="ccc" class="carousel slide w-100 h-100 d-flex">
         <div class="carousel-inner align-self-center px-3">
           <div className="carousel-item active">
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
-                  <h5 className="text-info d-block w-100">
+                  <h4 className="text-info d-block w-100">
                     Soy carousel de texto
-                  </h5>
+                  </h4>
                   <p className="text-white fs-6 d-block w-100">
                     Soy info de carousel con mas letras y palabras
                   </p>
@@ -21,9 +21,9 @@ function CarouselDeTexto(promps) {
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
-                  <h5 className="text-info d-block w-100">
+                  <h4 className="text-info d-block w-100">
                     Soy carousel de texto
-                  </h5>
+                  </h4>
                   <p className="text-white fs-6 d-block w-100">
                     Soy info de carousel con mas letras y palabras
                   </p>
