@@ -13,6 +13,8 @@ $h1-font-size:                $font-size-base * 2.5;
 $h2-font-size:                $font-size-base * 2.5;
 $h3-font-size:                $font-size-base * 1.75;
 
+$btn-border-radius-lg:50%;
+
 @font-face {
   font-family: 'fuente-eslogan';
   src: url('./components/fonts/MOODERN.ttf') format('truetype');
