@@ -34,7 +34,7 @@ function Nosotros(promps) {
       <div className="container d-flex flex-column justify-content-center h-100 ">
         <div className="row d-flex flex-column align-items-start justify-content-center ">
           <div className="col-12">
-            <h2 className="h2-title text-info text-center fw-medium">
+            <h2 className="h2-title text-info text-center fw-bold">
               Forjando hogares de ensueño con confianza y legado
             </h2>
           </div>

@@ -11,10 +11,10 @@ function CarouselDeTexto(promps) {
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-9 col-md-10">
-                  <h4 className="text-info d-block w-100">
+                  <h4 className="text-info fw-bold text-uppercase w-100">
                     Soy carousel de texto
                   </h4>
-                  <p className="text-white fs-6 d-block w-100">
+                  <p className="text-white fs-6 w-100">
                     Soy info de carousel con mas letras y palabras
                   </p>
                 </div>

@@ -5,7 +5,7 @@ function RegisterForm(promps) {
         <div className="col-12 col-lg-6 d-flex align-items-center">
           <div className="row">
             <div className="col-12 col-lg-8 d-flex mb-3">
-              <h2 className="h2-title text-info">Contacto</h2>
+              <h2 className="h2-title fw-cold text-info">Contacto</h2>
             </div>
 
             <div>
