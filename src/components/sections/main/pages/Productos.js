@@ -4,7 +4,7 @@ function Productos(promps) {
   return (
     <div className="d-flex flex-column h-100">
       <div className="row h-100">
-        <div className="col-12 psition-relative h-100">
+        <div className="col-12 position-relative h-100">
           <div class="position-absolute d-flex flex-column justify-content-center h-100">
             <div class="acordion">
               <div class="accordion" id="accordionExample">
