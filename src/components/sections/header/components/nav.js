@@ -5,7 +5,7 @@ import logoSmall from "../../../media/logo_small.png";
 
 function Nav() {
   return (
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar nav bg-transparent">
       <div class="container w-100">
         <div className="w-50">
           <NavLink to="/" className="navbar-brand" aria-current="page">
@@ -27,7 +27,7 @@ function Nav() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
+          class="offcanvas offcanvas-end w-50"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
