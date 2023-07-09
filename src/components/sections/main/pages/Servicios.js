@@ -1,7 +1,5 @@
 import primerSlide from "../../../media/slide-1.jpeg";
-import segundoSlide from "../../../media/slide-2.webp";
-import tercerSlide from "../../../media/slide-3.webp";
-import TextoDeBienvenida from "../components/TextoDeBienvenida";
+
 import CarouselDeTexto from "../components/carouselDeTexto";
 
 function Servicios(promps) {

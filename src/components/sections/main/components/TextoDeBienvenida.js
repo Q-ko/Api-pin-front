@@ -18,7 +18,7 @@ function TextoDeBienvenida(promps) {
         </div>
         <div className="row d-flex flex-column align-items-start justify-content-center">
           <div className="col-12 col-lg-2">
-            <a className="btn btn-info " href="#" role="button">
+            <a className="btn btn-info " /* href="#" */ role="button">
               Read more
             </a>
           </div>
