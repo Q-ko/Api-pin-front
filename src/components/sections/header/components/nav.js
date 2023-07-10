@@ -7,12 +7,12 @@ function Nav() {
   return (
     <nav class="navbar nav bg-transparent">
       <div class="container w-100">
-        <div className="w-50">
+        <div className="tamano-brand-container">
           <NavLink to="/" className="navbar-brand" aria-current="page">
             <img
               src={logoSmall}
               alt="Chilling Real State"
-              className="tamano-brand w-50"
+              className="tamano-brand "
             />
           </NavLink>
         </div>

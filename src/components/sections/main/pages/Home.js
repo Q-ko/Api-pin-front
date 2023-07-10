@@ -1,5 +1,5 @@
 import primerSlide from "../../../media/slide-1.jpeg";
-import segundoSlide from "../../../media/slide-2.webp";
+import segundoSlide from "../../../media/slide-2.png";
 import tercerSlide from "../../../media/slide-3.webp";
 import TextoDeBienvenida from "../components/TextoDeBienvenida";
 
@@ -7,7 +7,7 @@ function PagePrincipal(promps) {
   return (
     <div
       id="carouselExampleIndicators"
-      className="carousel slide carousel-fade w-100 h-100"
+      className="carousel slide carousel-fade w-100 h-100 home"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">
@@ -38,15 +38,27 @@ function PagePrincipal(promps) {
           data-bs-interval="3000"
         >
           <TextoDeBienvenida />
-          <img src={primerSlide} className="d-block w-100 h-100" alt="..." />
+          <img
+            src={primerSlide}
+            className="img-slide-home d-block w-100 h-100"
+            alt="..."
+          />
         </div>
         <div className="carousel-item w-100 h-100" data-bs-interval="3000">
           <TextoDeBienvenida />
-          <img src={segundoSlide} className="d-block w-100 h-100" alt="..." />
+          <img
+            src={segundoSlide}
+            className="img-slide-home d-block w-100 h-100"
+            alt="..."
+          />
         </div>
         <div className="carousel-item w-100 h-100" data-bs-interval="3000">
           <TextoDeBienvenida />
-          <img src={tercerSlide} className="d-block w-100 h-100" alt="..." />
+          <img
+            src={tercerSlide}
+            className="img-slide-home d-block w-100 h-100"
+            alt="..."
+          />
         </div>
       </div>
       <div className="botones-del-slide">

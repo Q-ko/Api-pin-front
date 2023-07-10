@@ -30,8 +30,8 @@ function Nosotros(promps) {
     //     </div>
     //   </div>
     // </div>
-    <div className="d-flex flex-column position-absolute w-100 h-100 img-nos">
-      <div className="container d-flex flex-column justify-content-center h-100 ">
+    <div className="d-flex flex-column justify-content-center w-100 h-100 img-nos">
+      <div className="container d-flex flex-column justify-content-center h-75 ">
         <div className="row d-flex flex-column align-items-start justify-content-center ">
           <div className="col-12">
             <h2 className="h2-title text-info text-center fw-bold">
@@ -39,7 +39,7 @@ function Nosotros(promps) {
             </h2>
           </div>
         </div>
-        <div className="row d-flex flex-column align-items-start justify-content-center my-3">
+        <div className="row d-flex flex-column align-items-start justify-content-center mt-2">
           <div className="col-12">
             <p className=" text-light text-center">
               <strong>
