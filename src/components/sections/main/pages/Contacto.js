@@ -28,14 +28,16 @@ function Form(params) {
 
     const email = event.target.value;
     axios
-      .get(`http://localhost/Pin-Laravel/public/api/mail-existe/${email}`)
+      .get(
+        `https://pin-laravel-production.up.railway.app/api/mail-existe/${email}`
+      )
       .then((response) => {
         if (response.data.existe) {
           setExistMail(true);
           setShowDiv(true);
           return axios
             .get(
-              `http://localhost/Pin-Laravel/public/api/rellenar-formulario/${email}`
+              `https://pin-laravel-production.up.railway.app/api/rellenar-formulario/${email}`
             )
             .then((response) => {
               const nombre = response.data.nombre;
@@ -65,7 +67,7 @@ function Form(params) {
     event.preventDefault();
     axios
       .post(
-        "http://localhost/Pin-Laravel/public/api/registro-cliente",
+        "https://pin-laravel-production.up.railway.app/api/registro-cliente",
         userData
       )
       .then((response) => {
