@@ -180,11 +180,15 @@ main{
      }
   }
 }
-  .carousel-item {
-    &.active {
-      animation-duration: 6s; // Cambia este valor al tiempo deseado en segundos
-    }
+
+.servicios{
+  .bg-img{
+    background-image: url(./components/media/slide-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
 
   .img-nos{
     background-image: url(components/media/nosotros.jpg);

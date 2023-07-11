@@ -4,24 +4,26 @@ import CarouselDeTexto from "../components/carouselDeTexto";
 
 function Servicios(promps) {
   return (
-    <div className="container h-100">
-      <div className="d-flex justify-content-center align-items-center h-100">
-        <div
-          id="carouselExample2 align-self-center h-100 shadow rounded position-relative"
-          class="carousel slide"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src={primerSlide} class="d-block w-100" alt="..." />
+    <div className="container d-flex align-items-center justify-content-center h-100 servicios">
+      <div className="h-75 w-75 bg-img">
+        <div className="d-flex align-items-end flex-column justify-content-end h-100">
+          <article class="mt-auto p-2">
+            <div class="">
+              <div class="d-flex mb-3">
+                <div class="ps-3">
+                  <h6 class="m-0 h6">nombre de persona</h6>
+                  <p class="m-0 h6">Lorem, ipsum.</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-light h6">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  vero sequi laborum eaque ab minima rerum beatae, nam
+                  perferendis, quos fugiat saepe qui, iure itaque?
+                </p>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src={primerSlide} class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src={primerSlide} class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <CarouselDeTexto />
+          </article>
         </div>
       </div>
     </div>
