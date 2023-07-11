@@ -6,7 +6,7 @@ function Productos(promps) {
       <div className="row h-100">
         <div className="col-12 position-relative h-100">
           <div class="position-absolute d-flex flex-column justify-content-center h-100">
-            <div class="acordion ">
+            <div class="acordion m-lg-5 p-lg-5 ">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
@@ -106,7 +106,7 @@ function Productos(promps) {
           </div>
           <div className="d-flex justify-content-end h-100 ">
             <img
-              className="h-100 pe-5"
+              className="h-100 me-xl-5 pe-xl-5 me-lg-2 pe-lg-2"
               src={chicoCorriendo}
               alt="Descripción de la imagen"
             ></img>
