@@ -189,6 +189,13 @@ main{
     background-size: cover;
   }
 }
+.contacto{
+  @media (max-width: 800px){
+    .whidt-contacto{
+      width: 75%;
+    }
+  }
+}
 
   .img-nos{
     background-image: url(components/media/nosotros.jpg);

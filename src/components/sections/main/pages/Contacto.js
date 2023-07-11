@@ -82,7 +82,7 @@ function Form(params) {
   };
 
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center h-100">
+    <div className="container d-flex flex-column justify-content-center align-items-center h-100 contacto">
       <RegisterForm
         userData={userData}
         handleChange={handleChange}

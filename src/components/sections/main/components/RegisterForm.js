@@ -1,6 +1,6 @@
 function RegisterForm(promps) {
   return (
-    <div className="container">
+    <div className="whidt-contacto">
       <div className="row">
         <div className="col-12 col-lg-8 d-flex mb-3">
           <h2 className="h2-title fw-cold text-info">Contacto</h2>
@@ -8,7 +8,7 @@ function RegisterForm(promps) {
 
         <div>
           <form onSubmit={promps.handleSubmit}>
-            <div className="mb-3">
+            <div className="mb-2">
               <label for="email" class="form-label">
                 Email address
               </label>
@@ -28,7 +28,7 @@ function RegisterForm(promps) {
 
             {promps.showDiv && !promps.existMail && (
               <div>
-                <div className="mb-3">
+                <div className="mb-2">
                   <label for="nombre" className="form-label">
                     Nombre completo
                   </label>
@@ -41,7 +41,7 @@ function RegisterForm(promps) {
                     autoFocus
                   />
                 </div>
-                <div className="mb-3">
+                <div className="mb-2">
                   <label for="telefono" class="form-label">
                     Numero de telefono
                   </label>
