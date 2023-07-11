@@ -65,6 +65,13 @@ header{
     .nav-link{
       font-family: 'fuente-nav', sans-serif;;
     }
+
+    .offcanvas {
+      background-image: url('./components/media/offcanvas.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
   }
 }
 

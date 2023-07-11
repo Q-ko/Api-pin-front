@@ -27,7 +27,7 @@ function Nav() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end w-50"
+          class="offcanvas offcanvas-end w-30"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
