@@ -4,7 +4,7 @@ import Nav from "./components/sections/header/components/nav";
 
 function App() {
   return (
-    <div className="vh-100 vw-100">
+    <div className="vh-100 vw-100 bg">
       <header className="w-100">
         <Nav />
       </header>

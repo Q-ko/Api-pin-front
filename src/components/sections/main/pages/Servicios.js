@@ -9,7 +9,7 @@ function Servicios(promps) {
         <div className="container h-100">
           <div className="row height-mitad"></div>
           <div className="row height-mitad2 d-flex  justify-content-end align-items-end">
-            <div className="col-12 col-lg-6 col-md-8 col-sm-10 h-100 px-0">
+            <div className="col-12 col-lg-6 col-md-8 col-sm-10 h-100 px-0 sombra">
               <div
                 id="carouselServis"
                 class="carousel slide h-100 d-flex align-items-center justify-content-center"
