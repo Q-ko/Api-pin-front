@@ -8,15 +8,15 @@ function Servicios(promps) {
       <div className="h-75 w-75  bg-img">
         <div className="container h-100">
           <div className="row height-mitad"></div>
-          <div className="row height-mitad2 d-flex  justify-content-end">
-            <div className="col-12 col-lg-6 col-md-8 col-sm-10 bg-primary">
+          <div className="row height-mitad2 d-flex  justify-content-end align-items-end">
+            <div className="col-12 col-lg-6 col-md-8 col-sm-10 h-100 px-0">
               <div
                 id="carouselServis"
                 class="carousel slide h-100 d-flex align-items-center justify-content-center"
               >
-                <div class="carousel-inner ">
-                  <div class="carousel-item active">
-                    <div className="container">
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item bg-info p-2 h-100 active">
+                    <div className="container d-flex align-items-center justify-content-center h-100">
                       <div className="row">
                         <div className="col-8">
                           <h5 className="h5">TITULO DEL ACROUSEL</h5>
@@ -30,8 +30,8 @@ function Servicios(promps) {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div className="container">
+                  <div class="carousel-item bg-light p-2 h-100">
+                    <div className="container d-flex align-items-center justify-content-center h-100">
                       <div className="row">
                         <div className="col-8">
                           <h5 className="h5">TITULO DEL ACROUSEL</h5>

@@ -1,33 +1,32 @@
+$primary: #3a3a3f;
+$secondary: #dac6ac;
+$light: #aaaabc;
+$success: #433924;
+$info: #efa747;
+$warning: #1d595e;
 
-$primary: #3A3A3F;
-$secondary:     #dac6ac;
-$light:         #AAAABC;
-$success:       #433924;
-$info:          #efa747;
-$warning:       #1D595E;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * 0.875;
+$font-size-lg: $font-size-base * 1.25;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 1.75;
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875;
-$font-size-lg:                $font-size-base * 1.25;
-$h1-font-size:                $font-size-base * 2.5;
-$h2-font-size:                $font-size-base * 2.5;
-$h3-font-size:                $font-size-base * 1.75;
-
-$btn-border-radius-lg:50%;
+$btn-border-radius-lg: 50%;
 
 @font-face {
-  font-family: 'fuente-eslogan';
-  src: url('./components/fonts/MOODERN.ttf') format('truetype');
-   font-family: 'fuente-nav';
-  src: url('./components/fonts/Modern-Age.ttf') format('truetype');
+  font-family: "fuente-eslogan";
+  src: url("./components/fonts/MOODERN.ttf") format("truetype");
+  font-family: "fuente-nav";
+  src: url("./components/fonts/Modern-Age.ttf") format("truetype");
   /* Otras propiedades de la fuente, como font-weight y font-style, si es necesario */
 }
 
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
   3: $spacer * 3,
   4: $spacer * 8,
   5: $spacer * 10,
@@ -45,39 +44,35 @@ $spacers: (
   padding-top: $spacer * 5 !important;
 }
 
-
-
-
-header{
+header {
   position: absolute;
   z-index: 999;
-  nav{
+  nav {
     background-color: transparent;
-    .tamano-brand-container{
+    .tamano-brand-container {
       height: auto;
       max-width: 65%;
-      .tamano-brand{
-        width:77%;
+      .tamano-brand {
+        width: 77%;
         height: auto;
       }
     }
 
-    .nav-link{
-      font-family: 'fuente-nav', sans-serif;;
+    .nav-link {
+      font-family: "fuente-nav", sans-serif;
     }
 
     .offcanvas {
-      background-image: url('./components/media/offcanvas.png');
+      background-image: url("./components/media/offcanvas.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
-    
   }
 }
 
-main{
+main {
   .h2-title {
-    font-family: 'fuente-eslogan', sans-serif;
+    font-family: "fuente-eslogan", sans-serif;
   }
   .my-custom-top-30 {
     position: relative;
@@ -86,179 +81,168 @@ main{
     width: 75%;
     opacity: 0.8;
   }
-  .img-nos{
+  .img-nos {
     background-image: url(./components/media/nosotros.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
   }
-.home{
-  .img-slide-home{
-    filter: brightness(0.7);
-  }
-  .texto_de_bienvenida{
-    button {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-      outline: none;
-      border: 0;
-      vertical-align: middle;
-      text-decoration: none;
-      background: transparent;
-      padding: 0;
-      font-size: inherit;
-      font-family: inherit;
-     }
-     
-     button.learn-more {
-      width: 12rem;
-      height: auto;
-     }
-     
-     button.learn-more .circle {
-      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-      position: relative;
-      display: block;
-      margin: 0;
-      width: 3rem;
-      height: 3rem;
-      background: #282936;
-      border-radius: 1.625rem;
-     }
-     
-     button.learn-more .circle .icon {
-      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      background: #fff;
-     }
-     
-     button.learn-more .circle .icon.arrow {
-      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-      left: 0.625rem;
-      width: 1.125rem;
-      height: 0.125rem;
-      background: none;
-     }
-     
-     button.learn-more .circle .icon.arrow::before {
-      position: absolute;
-      content: "";
-      top: -0.29rem;
-      right: 0.0625rem;
-      width: 0.625rem;
-      height: 0.625rem;
-      border-top: 0.125rem solid #fff;
-      border-right: 0.125rem solid #fff;
-      transform: rotate(45deg);
-     }
-     
-     button.learn-more .button-text {
-      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 0.75rem 0;
-      margin: 0 0 0 1.85rem;
-      color: #282936;
-      font-weight: 700;
-      line-height: 1.6;
-      text-align: center;
-      text-transform: uppercase;
-     }
-     
-     button:hover .circle {
-      width: 100%;
-     }
-     
-     button:hover .circle .icon.arrow {
-      background: #fff;
-      transform: translate(1rem, 0);
-     }
-     
-     button:hover .button-text {
-      color: #fff;
-     }
-  }
-}
+  .home {
+    .img-slide-home {
+      filter: brightness(0.7);
+    }
+    .texto_de_bienvenida {
+      button {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        vertical-align: middle;
+        text-decoration: none;
+        background: transparent;
+        padding: 0;
+        font-size: inherit;
+        font-family: inherit;
+      }
 
-.servicios{
-  .bg-img{
-    background-image: url(./components/media/slide-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+      button.learn-more {
+        width: 12rem;
+        height: auto;
+      }
 
+      button.learn-more .circle {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+        background: #282936;
+        border-radius: 1.625rem;
+      }
 
-    @media screen and (max-width:574px) {
-      .bg-img{
-        background-image: none;
+      button.learn-more .circle .icon {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+      }
+
+      button.learn-more .circle .icon.arrow {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+      }
+
+      button.learn-more .circle .icon.arrow::before {
+        position: absolute;
+        content: "";
+        top: -0.29rem;
+        right: 0.0625rem;
+        width: 0.625rem;
+        height: 0.625rem;
+        border-top: 0.125rem solid #fff;
+        border-right: 0.125rem solid #fff;
+        transform: rotate(45deg);
+      }
+
+      button.learn-more .button-text {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: #282936;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      button:hover .circle {
+        width: 100%;
+      }
+
+      button:hover .circle .icon.arrow {
+        background: #fff;
+        transform: translate(1rem, 0);
+      }
+
+      button:hover .button-text {
+        color: #fff;
       }
     }
-
-    .height-mitad{
-      height:50%; 
-     }
-     .height-mitad2{
-      height: 50%;
-     }
-
-@media screen and (max-width:574px) {
-  .h6{
-    font-size: .7rem;
   }
 
-  .height-mitad{
-    height:0%; 
-   }
-   .height-mitad2{
-    height:100%; 
-   }
-}
+  .servicios {
+    .bg-img {
+      background-image: url(./components/media/slide-2.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
+      @media screen and (max-width: 574px) {
+        .bg-img {
+          background-image: none;
+        }
+      }
 
-}
-.contacto{
-  @media (max-width: 800px){
-    .whidt-contacto{
+      .height-mitad {
+        height: 50%;
+      }
+      .height-mitad2 {
+        height: 50%;
+      }
+
+      @media screen and (max-width: 574px) {
+        .h6 {
+          font-size: 0.7rem;
+        }
+
+        .height-mitad {
+          height: 0%;
+        }
+        .height-mitad2 {
+          height: 100%;
+        }
+      }
+    }
+    .contacto {
+      @media (max-width: 800px) {
+        .whidt-contacto {
+          width: 75%;
+        }
+      }
+    }
+  }
+
+  .producto {
+    .w-acordion {
       width: 75%;
     }
-  }
-}
 
-
-
-
-}
-
- .producto{
-  .w-acordion{
-    width: 75%;
-  }
-
-
-  .fondo-de-img-prod{
-    background-image: url(./components/media/img-page-3.png);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat
-  }
-  @media screen and (max-width:574px) {
-    .fondo-de-img-prod{
-      background-size: cover;
+    .fondo-de-img-prod {
+      background-image: url(./components/media/img-page-3.png);
+      background-position: right;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
-    .w-acordion{
-      width: 100%;
+    @media screen and (max-width: 574px) {
+      .fondo-de-img-prod {
+        background-size: cover;
+      }
+      .w-acordion {
+        width: 100%;
+      }
     }
   }
-
- }
-
-
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
