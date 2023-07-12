@@ -5,7 +5,7 @@ import CarouselDeTexto from "../components/carouselDeTexto";
 function Servicios(promps) {
   return (
     <div className="container d-flex align-items-center justify-content-center h-100 servicios">
-      <div className="h-75 w-75 bg-img">
+      <div className="h-75 w-75  bg-img">
         <div className="container h-100">
           <div className="row height-mitad"></div>
           <div className="row height-mitad2 d-flex  justify-content-end">
