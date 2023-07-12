@@ -187,7 +187,35 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+    @media screen and (max-width:574px) {
+      .bg-img{
+        background-image: none;
+      }
+    }
+
+    .height-mitad{
+      height:50%; 
+     }
+     .height-mitad2{
+      height: 50%;
+     }
+
+@media screen and (max-width:574px) {
+  .h6{
+    font-size: .7rem;
   }
+
+  .height-mitad{
+    height:0%; 
+   }
+   .height-mitad2{
+    height:100%; 
+   }
+}
+
+
 }
 .contacto{
   @media (max-width: 800px){
@@ -206,56 +234,5 @@ main{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .header .navbar {
-//   position: absolute;
-//   background-color: transparent !important;
-// }
-
-
-// .parrafo-comun {
-//   color: #343434;
-//   font-size: 1rem;
-// }
-
-// .texto {
-//   left: 100px;
-//   top: 140px;
-// }
-
-.my-custom-top-30 {
-  position: relative;
-  top: 25%;
-  width: 75%;
-  opacity: 0.8;
 }
-// .marg {
-//   margin-left: 95px;
-//   padding-left: 12px;
-// }
 @import "../node_modules/bootstrap/scss/bootstrap";
