@@ -61,7 +61,7 @@ function Nav() {
               </li>
               <li class="nav-item">
                 <NavLink to="/productos" className="nav-link text-info">
-                  Productos
+                  Destinos de Ensueño
                 </NavLink>
               </li>
               <li class="nav-item">

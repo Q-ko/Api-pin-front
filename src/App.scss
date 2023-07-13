@@ -52,7 +52,13 @@ header {
     .nav-link {
       font-family: "fuente-nav", sans-serif;
     }
-
+    .navbar-toggler{
+      border-color: $info;
+      border-radius: 20px;
+      border-width: 2px;
+      
+    }
+    
     .offcanvas {
       background-image: url("./components/media/offcanvas.png");
       background-repeat: no-repeat;
@@ -188,7 +194,7 @@ main {
       background-repeat: no-repeat;
       background-size: cover;
 
-      @media screen and (max-width: 574px) {
+      @media screen and (max-width: 1000px) {
         .bg-img {
           background-image: none;
         }

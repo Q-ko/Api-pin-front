@@ -18,7 +18,7 @@ function Productos(promps) {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+                Propiedades en venta
               </button>
             </h2>
             <div
@@ -27,15 +27,14 @@ function Productos(promps) {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Descubre nuestra selección exclusiva de propiedades en venta.
+                Cada una de estas joyas inmobiliarias ha sido meticulosamente
+                elegida por su diseño impecable, ubicación privilegiada y
+                características extraordinarias. Desde elegantes mansiones en la
+                costa hasta lujosos apartamentos en el corazón de las ciudades
+                más cosmopolitas, estas propiedades te brindarán una experiencia
+                de vida excepcional. Explora nuestra colección y encuentra el
+                hogar de tus sueños.
               </div>
             </div>
           </div>
@@ -49,7 +48,7 @@ function Productos(promps) {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                Propiedades en alquiler
               </button>
             </h2>
             <div
@@ -58,15 +57,14 @@ function Productos(promps) {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Sumérgete en el lujo y disfruta de una estancia inolvidable en
+                nuestras propiedades en alquiler. Nuestra selección exclusiva
+                ofrece villas privadas con vistas panorámicas, residencias de
+                diseño contemporáneo y apartamentos de lujo con servicios
+                exclusivos. Cada propiedad ha sido cuidadosamente seleccionada
+                para ofrecerte comodidad, elegancia y una experiencia única en
+                los destinos más exquisitos. Encuentra la propiedad perfecta
+                para tu estancia y crea recuerdos inolvidables.
               </div>
             </div>
           </div>
@@ -80,7 +78,7 @@ function Productos(promps) {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                Proyectos en desarrollo
               </button>
             </h2>
             <div
@@ -89,15 +87,14 @@ function Productos(promps) {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Explora nuestros emocionantes proyectos inmobiliarios en
+                desarrollo. Estamos trabajando en la creación de complejos
+                residenciales excepcionales, con amenidades de clase mundial y
+                comunidades privadas exclusivas. Estos proyectos representan lo
+                último en innovación y diseño, y están diseñados para cautivar
+                tus sentidos. Descubre un nuevo nivel de vida lujosa y sé parte
+                de nuestros proyectos en desarrollo. Prepárate para un futuro
+                lleno de elegancia y sofisticación.
               </div>
             </div>
           </div>
