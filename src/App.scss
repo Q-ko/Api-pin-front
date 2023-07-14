@@ -254,5 +254,17 @@ main {
       }
     }
   }
+  .contacto {
+    .hw-contacto {
+      width: 50%;
+      height: 75%;
+    }
+    @media screen and (max-width: 768px) {
+      .hw-contacto {
+        width: 90%;
+        height: 75%;
+      }
+    }
+  }
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
