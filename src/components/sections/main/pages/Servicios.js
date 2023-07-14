@@ -1,11 +1,9 @@
 import primerSlide from "../../../media/slide-1.jpeg";
 
-import CarouselDeTexto from "../components/carouselDeTexto";
-
 function Servicios(promps) {
   return (
     <div className="container d-flex align-items-center justify-content-center h-100 servicios">
-      <div className="h-75 w-75  bg-img">
+      <div className="hww  bg-img">
         <div className="container h-100">
           <div className="row height-mitad"></div>
           <div className="row height-mitad2 d-flex  justify-content-end align-items-end">
@@ -14,6 +12,28 @@ function Servicios(promps) {
                 id="carouselServis"
                 class="carousel slide h-100 d-flex align-items-center justify-content-center"
               >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselServis"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselServis"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselServis"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
                 <div class="carousel-inner h-100">
                   <div class="carousel-item bg-info  padding-xy h-100 active">
                     <div className="container d-flex align-items-center justify-content-center h-100">

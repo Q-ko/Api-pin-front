@@ -185,20 +185,20 @@ main {
   }
 
   .servicios {
+    .hww {
+      height: 75%;
+      width: 80%;
+    }
     .bg-img {
       background-image: url(./components/media/slide-2.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
 
-      @media screen and (max-width: 1000px) {
-        .bg-img {
-          background-image: none;
-        }
-      }
       .sombra {
         box-shadow: -12px -12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
       }
+
       .height-mitad {
         height: 35%;
       }
@@ -209,7 +209,7 @@ main {
         }
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 991px) {
         .h6 {
           font-size: 0.9rem;
         }
@@ -232,6 +232,21 @@ main {
         }
       }
     }
+    @media screen and (max-width: 991px) {
+      .bg-img {
+        background-image: none;
+      }
+      .hww {
+        height: 75%;
+        width: 88%;
+      }
+    }
+    @media screen and (max-width: 290px) {
+      .hww {
+        height: 75%;
+        width: 100%;
+      }
+    }
   }
 
   .producto {
@@ -251,6 +266,27 @@ main {
       }
       .w-acordion {
         width: 100%;
+      }
+    }
+  }
+  .nosotros {
+    .w-colum-naranja {
+      width: 10%;
+    }
+    .columna-de-texto {
+      .fst {
+        font-size: 2rem;
+      }
+      .fs {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 576px) {
+        .fst {
+          font-size: 1.6rem;
+        }
+        .fs {
+          font-size: 0.8rem;
+        }
       }
     }
   }
