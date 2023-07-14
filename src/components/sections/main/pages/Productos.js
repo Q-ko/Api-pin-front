@@ -11,7 +11,7 @@ function Productos(promps) {
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button"
+                class="accordion-button font-fam"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -26,7 +26,7 @@ function Productos(promps) {
               class="accordion-collapse collapse show"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body font-fam">
                 Descubre nuestra selección exclusiva de propiedades en venta.
                 Cada una de estas joyas inmobiliarias ha sido meticulosamente
                 elegida por su diseño impecable, ubicación privilegiada y
@@ -41,7 +41,7 @@ function Productos(promps) {
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed font-fam"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -56,7 +56,7 @@ function Productos(promps) {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body font-fam">
                 Sumérgete en el lujo y disfruta de una estancia inolvidable en
                 nuestras propiedades en alquiler. Nuestra selección exclusiva
                 ofrece villas privadas con vistas panorámicas, residencias de
@@ -71,7 +71,7 @@ function Productos(promps) {
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed font-fam"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -86,7 +86,7 @@ function Productos(promps) {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body font-fam">
                 Explora nuestros emocionantes proyectos inmobiliarios en
                 desarrollo. Estamos trabajando en la creación de complejos
                 residenciales excepcionales, con amenidades de clase mundial y

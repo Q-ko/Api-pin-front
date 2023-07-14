@@ -9,22 +9,22 @@ function Servicios(promps) {
         <div className="container h-100">
           <div className="row height-mitad"></div>
           <div className="row height-mitad2 d-flex  justify-content-end align-items-end">
-            <div className="col-12 col-lg-6 col-md-8 col-sm-10 h-100 px-0 sombra">
+            <div className="col-12 col-lg-9   h-100 px-0 sombra">
               <div
                 id="carouselServis"
                 class="carousel slide h-100 d-flex align-items-center justify-content-center"
               >
                 <div class="carousel-inner h-100">
-                  <div class="carousel-item bg-info p-2 h-100 active">
+                  <div class="carousel-item bg-info  padding-xy h-100 active">
                     <div className="container d-flex align-items-center justify-content-center h-100">
                       <div className="row">
                         <div className="col-8">
-                          <h5 className="h5 align-items-center justify-content-center">
+                          <h5 className="h5  fw-bold font-fam">
                             Compra y Venta de Propiedades
                           </h5>
                         </div>
                         <div className="col-12">
-                          <p className="h6">
+                          <p className="h6 font-fam">
                             <strong>Nos especializamos</strong> en facilitar el
                             proceso de compra y venta de propiedades. Nuestro
                             equipo de expertos en bienes raíces se encargará de
@@ -42,16 +42,16 @@ function Servicios(promps) {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item bg-light p-2 h-100">
+                  <div class="carousel-item bg-light  padding-xy h-100">
                     <div className="container d-flex align-items-center justify-content-center h-100">
                       <div className="row">
                         <div className="col-8">
-                          <h5 className="h5 justify-content-center">
+                          <h5 className="h5  fw-bold font-fam">
                             Gestión de Alquileres
                           </h5>
                         </div>
                         <div className="col-12">
-                          <p className="h6">
+                          <p className="h6 font-fam">
                             <strong>Entendemos</strong> la importancia de una
                             gestión de alquiler eficiente y sin complicaciones.
                             Nuestro equipo se encargará de encontrar inquilinos
@@ -68,16 +68,16 @@ function Servicios(promps) {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item bg-light p-2 h-100">
+                  <div class="carousel-item bg-secondary  padding-xy h-100">
                     <div className="container d-flex align-items-center justify-content-center h-100">
                       <div className="row">
                         <div className="col-8">
-                          <h5 className="h5 justify-content-center">
+                          <h5 className="h5  fw-bold font-fam">
                             Desarrollo de Proyectos Inmobiliarios
                           </h5>
                         </div>
                         <div className="col-12">
-                          <p className="h6">
+                          <p className="h6 font-fam">
                             <strong>Comprometidos</strong> con la creación de
                             proyectos inmobiliarios excepcionales y de calidad.
                             Nuestro equipo de profesionales trabaja en estrecha

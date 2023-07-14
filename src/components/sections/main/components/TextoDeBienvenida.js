@@ -5,14 +5,14 @@ function TextoDeBienvenida(promps) {
       <div className="container d-flex flex-column justify-content-center h-100 ">
         <div className="row d-flex flex-column align-items-start justify-content-center ">
           <div className="col-12 col-lg-6">
-            <h2 className="h2-title fw-bold text-info text-center text-lg-start">
+            <h2 className="h2-title font-fam fw-bolder text-info text-center text-lg-start">
               Explora la grandeza en bienes raíces
             </h2>
           </div>
         </div>
         <div className="row d-flex flex-column align-items-start justify-content-center my-2">
           <div className="col-12 col-lg-4">
-            <p className=" text-secondary text-center text-lg-start">
+            <p className=" font-fam text-secondary text-center text-lg-start">
               Como uno de los mejores agentes inmobiliarios de Argentina,
               Salvatore Ferragamo y su equipo en Chilling Real State lo ayudarán
               a encontrar lo que está buscando.

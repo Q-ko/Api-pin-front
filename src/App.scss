@@ -52,13 +52,12 @@ header {
     .nav-link {
       font-family: "fuente-nav", sans-serif;
     }
-    .navbar-toggler{
+    .navbar-toggler {
       border-color: $info;
       border-radius: 20px;
       border-width: 2px;
-      
     }
-    
+
     .offcanvas {
       background-image: url("./components/media/offcanvas.png");
       background-repeat: no-repeat;
@@ -79,13 +78,11 @@ main {
   .h2-title {
     font-family: "fuente-eslogan", sans-serif;
   }
-  .my-custom-top-30 {
-    position: relative;
-    top: 25%;
-    right: 25%;
-    width: 75%;
-    opacity: 0.8;
+
+  .font-fam {
+    font-family: "Raleway", sans-serif;
   }
+
   .img-nos {
     background-image: url(./components/media/nosotros.jpg);
     background-repeat: repeat;
@@ -203,15 +200,18 @@ main {
         box-shadow: -12px -12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
       }
       .height-mitad {
-        height: 50%;
+        height: 35%;
       }
       .height-mitad2 {
-        height: 50%;
+        height: 65%;
+        .padding-xy {
+          padding: 2rem 3rem;
+        }
       }
 
-      @media screen and (max-width: 574px) {
+      @media screen and (max-width: 768px) {
         .h6 {
-          font-size: 0.7rem;
+          font-size: 0.9rem;
         }
 
         .height-mitad {
@@ -219,6 +219,9 @@ main {
         }
         .height-mitad2 {
           height: 100%;
+          .padding-xy {
+            padding: 1rem 1rem;
+          }
         }
       }
     }

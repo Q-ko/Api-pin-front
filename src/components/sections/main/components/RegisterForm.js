@@ -3,13 +3,13 @@ function RegisterForm(promps) {
     <div className="whidt-contacto">
       <div className="row">
         <div className="col-12 col-lg-8 d-flex mb-3">
-          <h2 className="h2-title fw-cold text-info">Contacto</h2>
+          <h2 className="h2-title fw-bold font-fam text-info">Contacto</h2>
         </div>
 
         <div>
           <form onSubmit={promps.handleSubmit}>
             <div className="mb-2">
-              <label for="email" class="form-label">
+              <label for="email" class="form-label font-fam">
                 Email address
               </label>
               <input
@@ -21,7 +21,7 @@ function RegisterForm(promps) {
                 value={promps.userData.email}
                 onBlur={promps.handleBlur}
               />
-              <div id="emailHelp" className="form-text">
+              <div id="emailHelp" className="form-text font-fam">
                 Presione Enter para verificar el email
               </div>
             </div>
@@ -29,7 +29,7 @@ function RegisterForm(promps) {
             {promps.showDiv && !promps.existMail && (
               <div>
                 <div className="mb-2">
-                  <label for="nombre" className="form-label">
+                  <label for="nombre" className="form-label font-fam">
                     Nombre completo
                   </label>
                   <input
@@ -42,7 +42,7 @@ function RegisterForm(promps) {
                   />
                 </div>
                 <div className="mb-2">
-                  <label for="telefono" class="form-label">
+                  <label for="telefono" class="form-label font-fam">
                     Numero de telefono
                   </label>
                   <input
@@ -58,7 +58,7 @@ function RegisterForm(promps) {
 
             {promps.showDiv && promps.existMail && (
               <div>
-                <h1>
+                <h1 className="font-fam">
                   Es un gusto volver a verte por aca!
                   {promps.userData.nombre} En que podemos ayudarte?
                 </h1>
@@ -66,7 +66,7 @@ function RegisterForm(promps) {
             )}
 
             <div className="mb-3">
-              <label for="comentario" className="form-label">
+              <label for="comentario" className="form-label font-fam">
                 Comentario
               </label>
               <input
@@ -78,7 +78,7 @@ function RegisterForm(promps) {
               />
             </div>
 
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary font-fam">
               Submit
             </button>
           </form>

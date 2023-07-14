@@ -34,14 +34,14 @@ function Nosotros(promps) {
       <div className="container d-flex flex-column justify-content-center h-75 ">
         <div className="row d-flex flex-column align-items-start justify-content-center ">
           <div className="col-12">
-            <h2 className="h2-title text-info text-center fw-bold">
+            <h2 className="h2-title text-info text-center fw-bold font-fam">
               Forjando hogares de ensueño con confianza y legado
             </h2>
           </div>
         </div>
         <div className="row d-flex flex-column align-items-start justify-content-center mt-2">
           <div className="col-12">
-            <p className=" text-light text-center">
+            <p className=" text-light text-center font-fam">
               <strong>
                 Chilling Real State, con más de 90 años de experiencia, crea
                 hogares de lujo y ensueño en todo el mundo. Vendemos casas en
