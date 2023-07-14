@@ -38,17 +38,3 @@ function Nosotros(promps) {
 }
 
 export default Nosotros;
-
-<p className=" text-light text-center font-fam">
-  <strong>
-    Chilling Real State, con más de 90 años de experiencia, crea hogares de lujo
-    y ensueño en todo el mundo. Vendemos casas en todo el mundo, ayudando a las
-    familias a convertir sus sueños en realidad. Nuestro compromiso con la
-    calidad y la satisfacción del cliente es inquebrantable. Ofrecemos una
-    selección incomparable de propiedades exclusivas que encarnan el lujo y el
-    diseño impecable. Trabajamos estrechamente con nuestros clientes para hacer
-    realidad sus sueños y reflejar su estilo de vida y aspiraciones.
-    <br /> Bienvenido a Chilling Real State, donde convertimos sueños en
-    realidad y hogares en legados.
-  </strong>
-</p>;

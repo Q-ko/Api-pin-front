@@ -1,3 +1,4 @@
+import primerSlide from "../../../media/slide-1.jpeg";
 import axios from "axios";
 import { useState } from "react";
 import RegisterForm from "../components/RegisterForm";
@@ -82,27 +83,42 @@ function Form(params) {
   };
 
   return (
-    <div className="container d-flex flex-column justify-content-center align-items-center h-100 contacto">
-      <RegisterForm
-        userData={userData}
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-        handleBlur={handleBlur}
-        existMail={existMail}
-        showDiv={showDiv}
-      />
+    <div className="container-fluid h-100  d-flex justify-content-center align-items-center contacto">
+      <div className="row h-75 w-100">
+        <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center ms-0 ps-0">
+          <div className="row h-100">
+            <div className="col-12 d-flex flex-column justify-content-center">
+              <h2 className="h2-title fw-bold font-fam text-info">Contacto</h2>
+            </div>
+            <div className="col-12">
+              <RegisterForm
+                userData={userData}
+                handleChange={handleChange}
+                handleSubmit={handleSubmit}
+                handleBlur={handleBlur}
+                existMail={existMail}
+                showDiv={showDiv}
+              />
 
-      {success && (
-        <div className="alert alert-success" role="alert">
-          Tu solicitud fue enviada con exito!
-        </div>
-      )}
+              {success && (
+                <div className="alert alert-success" role="alert">
+                  Tu solicitud fue enviada con exito!
+                </div>
+              )}
 
-      {error && (
-        <div className="alert alert-danger" role="alert">
-          Tuvimos un problema para procesar tu solicitud!
+              {error && (
+                <div className="alert alert-danger" role="alert">
+                  Tuvimos un problema para procesar tu solicitud!
+                </div>
+              )}
+            </div>
+          </div>
         </div>
-      )}
+
+        <div className="col col-lg-6 d-none d-lg-flex justify-content-start align-items-center">
+          <img src={primerSlide} className="w-75 align-self-center"></img>
+        </div>
+      </div>
     </div>
   );
 }

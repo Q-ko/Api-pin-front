@@ -291,15 +291,9 @@ main {
     }
   }
   .contacto {
-    .hw-contacto {
+    .hw-contac-img {
       width: 50%;
-      height: 75%;
-    }
-    @media screen and (max-width: 768px) {
-      .hw-contacto {
-        width: 90%;
-        height: 75%;
-      }
+      height: 100%;
     }
   }
 }
