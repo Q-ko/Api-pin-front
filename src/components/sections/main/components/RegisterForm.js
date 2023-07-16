@@ -1,7 +1,7 @@
 function RegisterForm(promps) {
   return (
     <div className="row">
-      <div className="col-12">
+      <div className="col-12 col-lg-8">
         <div class="form-container">
           <form class="form">
             <div class="form-group">
