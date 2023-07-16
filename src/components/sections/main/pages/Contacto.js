@@ -15,6 +15,13 @@ function Form(params) {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [showDiv, setShowDiv] = useState(false);
+  const [buttonState, setButtonState] = useState("");
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = (event) => {
+    setIsClicked(true);
+    setButtonState("onclic");
+  };
 
   const handleChange = (event) => {
     setSuccess(false);
@@ -76,19 +83,26 @@ function Form(params) {
         setSuccess(true);
         setExistMail(false);
         setShowDiv(false);
+        //  Aca setiamos el boton de Submit para validar el estado cdo es valido el request
+        setButtonState("validate");
+        // aca al boton lo volvemos a poner en default por decirlo cdo tarda mucho la validacion
+        setTimeout(() => {
+          setButtonState("");
+        }, 2000);
       })
       .catch((error) => {
         setError(true);
+        setButtonState("");
       });
   };
 
   return (
-    <div className="container-fluid h-100  d-flex justify-content-center align-items-center contacto">
+    <div className="container h-100  d-flex justify-content-center align-items-center contacto">
       <div className="row h-75 w-100">
-        <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center ms-0 ps-0">
+        <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center ms-0 ps-0 h-100">
           <div className="row h-100">
             <div className="col-12 d-flex flex-column justify-content-center">
-              <h2 className="h2-title fw-bold font-fam text-info">Contacto</h2>
+              <h2 className="fw-bold font-fam text-info ps-1">Contacto</h2>
             </div>
             <div className="col-12">
               <RegisterForm
@@ -98,6 +112,8 @@ function Form(params) {
                 handleBlur={handleBlur}
                 existMail={existMail}
                 showDiv={showDiv}
+                buttonState={buttonState}
+                handleClick={handleClick}
               />
 
               {success && (

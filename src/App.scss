@@ -4,7 +4,8 @@ $light: #aaaabc;
 $success: #433924;
 $info: #efa747;
 $warning: #1d595e;
-
+$green: #1ecd97;
+$gray: #bbbbbb;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-sm: $font-size-base * 0.875;
 $font-size-lg: $font-size-base * 1.25;
@@ -75,10 +76,6 @@ header {
 }
 
 main {
-  .h2-title {
-    font-family: "fuente-eslogan", sans-serif;
-  }
-
   .font-fam {
     font-family: "Raleway", sans-serif;
   }
@@ -291,11 +288,74 @@ main {
     }
   }
   .contacto {
+    .button-form {
+      outline: none;
+      height: 40px;
+      text-align: center;
+      width: 130px;
+      border-radius: 40px;
+      background: #fff;
+      border: 2px solid $green;
+      color: $green;
+      letter-spacing: 1px;
+      text-shadow: 0;
+
+      font-size: 12px;
+      font-weight: bold;
+
+      cursor: pointer;
+      transition: all 0.25s ease;
+      &:hover {
+        color: white;
+        background: $green;
+      }
+      &:active {
+        //letter-spacing: 2px;
+        letter-spacing: 2px;
+      }
+      &:after {
+        content: "SUBMIT";
+      }
+    }
+    .onclic {
+      width: 40px;
+      border-color: $gray;
+      border-width: 3px;
+      border-left-color: $green;
+      font-size: 0;
+      animation: rotating 2s 0.25s linear infinite;
+      &:after {
+        content: "";
+      }
+      &:hover {
+        color: $green;
+        background: white;
+      }
+    }
+    .validate {
+      font-size: 13px;
+      color: white;
+      background: $green;
+      &:after {
+        font-family: "FontAwesome";
+        content: "\f00c";
+      }
+    }
+
+    @keyframes rotating {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
     .form-container {
       background: linear-gradient(#212121, #212121) padding-box,
         linear-gradient(145deg, transparent 35%, $info, $warning) border-box;
+      padding: 1.3rem 2.7rem;
       border: 2px solid transparent;
-      padding: 32px 24px;
       font-size: 14px;
       font-family: inherit;
       color: white;
