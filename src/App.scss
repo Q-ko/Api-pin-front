@@ -60,12 +60,7 @@ header {
       border-radius: 20px;
       border-width: 2px;
     }
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
-      outline: none;
-      box-shadow: none;
-    }
+
     .offcanvas {
       background: linear-gradient($light, #717171);
     }
