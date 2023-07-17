@@ -15,13 +15,6 @@ function Form(params) {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [showDiv, setShowDiv] = useState(false);
-  const [buttonState, setButtonState] = useState("");
-  const [isClicked, setIsClicked] = useState(false);
-
-  const handleClick = (event) => {
-    setIsClicked(true);
-    setButtonState("onclic");
-  };
 
   const handleChange = (event) => {
     setSuccess(false);
@@ -83,17 +76,9 @@ function Form(params) {
         setSuccess(true);
         setExistMail(false);
         setShowDiv(false);
-        //  Aca setiamos el boton de Submit para validar el estado cdo es valido el request
-        setButtonState("validate");
-        // aca al boton lo volvemos a poner en default por decirlo cdo tarda mucho la validacion
-        setTimeout(() => {
-          setButtonState("");
-        }, 2000);
       })
       .catch((error) => {
         setError(true);
-        // Y aca al boton lo ponemos en default si falla la validacion
-        setButtonState("");
       });
   };
 
@@ -113,8 +98,6 @@ function Form(params) {
                 handleBlur={handleBlur}
                 existMail={existMail}
                 showDiv={showDiv}
-                buttonState={buttonState}
-                handleClick={handleClick}
               />
 
               {success && (

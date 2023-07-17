@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 function RegisterForm(promps) {
   return (
     <div className="row">
@@ -76,13 +74,9 @@ function RegisterForm(promps) {
             />
           </div>
 
-          <button
-            type="submit"
-            className={`button-form ${promps.buttonState} ${
-              promps.isClicked ? "onclic" : ""
-            }`}
-            onClick={promps.handleClick}
-          ></button>
+          <button type="submit" className="btn btn-primary font-fam">
+            Submit
+          </button>
         </form>
       </div>
     </div>
