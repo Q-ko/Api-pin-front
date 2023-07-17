@@ -4,7 +4,10 @@ function Productos(promps) {
   return (
     <div className="h-100 w-100 producto fondo-de-img-prod">
       <div className=" h-100 w-100 d-flex justofy-content-center align-items-center container">
-        <div class="accordion w-acordion opacity-75" id="accordionExample">
+        <div
+          class="accordion sombra w-acordion opacity-75"
+          id="accordionExample"
+        >
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button

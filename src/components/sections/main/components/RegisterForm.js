@@ -2,7 +2,7 @@ function RegisterForm(promps) {
   return (
     <div className="row">
       <div className="col-12 col-lg-8">
-        <div class="form-container">
+        <div class="form-container sombra-abajo">
           <form class="form" onSubmit={promps.handleSubmit}>
             <div class="form-group">
               <label for="email" class="form-label font-fam">

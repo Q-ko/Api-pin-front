@@ -57,11 +57,11 @@ header {
       border-color: $info;
       border-radius: 20px;
       border-width: 2px;
-    
+
       &.custom-toggler {
         .navbar-toggler-icon {
           background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='%231d595e' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-        }  
+        }
       }
     }
     .navbar-toggler:focus,
@@ -70,9 +70,6 @@ header {
       outline: none;
       box-shadow: none;
     }
-    
-    
-    
 
     .offcanvas {
       background: linear-gradient($light, #717171);
@@ -92,13 +89,19 @@ main {
   .font-fam {
     font-family: "Raleway", sans-serif;
   }
-
+  .sombra {
+    box-shadow: -12px -12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
+  }
+  .sombra-abajo {
+    box-shadow: 12px 12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
+  }
   .img-nos {
     background-image: url(./components/media/nosotros.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
   }
+
   .home {
     .img-slide-home {
       filter: brightness(0.7);
@@ -204,10 +207,6 @@ main {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-
-      .sombra {
-        box-shadow: -12px -12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
-      }
 
       .height-mitad {
         height: 35%;

@@ -135,7 +135,7 @@ function Form(params) {
           <img
             src={primerSlide}
             alt="estructura minimalista hormigon rustico pasisaje nieve"
-            className="w-100 align-self-center"
+            className="w-100 align-self-center sombra-abajo"
           ></img>
         </div>
       </div>
