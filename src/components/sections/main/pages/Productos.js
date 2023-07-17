@@ -2,12 +2,9 @@ import chicoCorriendo from "../../../media/img-page-3.png";
 
 function Productos(promps) {
   return (
-    <div className="h-100 w-100 producto">
-      <div className="fondo-de-img-prod h-100 w-100 d-flex justofy-content-center align-items-center">
-        <div
-          class="accordion mx-lg-3 px-lg-3 w-acordion opacity-75"
-          id="accordionExample"
-        >
+    <div className="h-100 w-100 producto fondo-de-img-prod">
+      <div className=" h-100 w-100 d-flex justofy-content-center align-items-center container">
+        <div class="accordion w-acordion opacity-75" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
@@ -18,7 +15,7 @@ function Productos(promps) {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Propiedades en venta
+                Propiedades en ventas
               </button>
             </h2>
             <div

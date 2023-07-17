@@ -249,26 +249,24 @@ main {
     }
   }
 
-  .producto {
-    .w-acordion {
-      width: 75%;
-    }
-
+  .w-acordion {
+    width: 75%;
+  }
+  .fondo-de-img-prod {
+    background-image: url(./components/media/img-page-3.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 574px) {
     .fondo-de-img-prod {
-      background-image: url(./components/media/img-page-3.png);
-      background-position: right;
-      background-size: contain;
-      background-repeat: no-repeat;
+      background-size: cover;
     }
-    @media screen and (max-width: 574px) {
-      .fondo-de-img-prod {
-        background-size: cover;
-      }
-      .w-acordion {
-        width: 100%;
-      }
+    .w-acordion {
+      width: 100%;
     }
   }
+
   .nosotros {
     .w-colum-naranja {
       width: 10%;
