@@ -92,6 +92,8 @@ function Form(params) {
       })
       .catch((error) => {
         setError(true);
+        setUserData({ nombre: "", email: "", telefono: "", comentario: "" });
+        setShowDiv(false);
         setButtonState("");
       });
   };
@@ -116,17 +118,15 @@ function Form(params) {
                 handleClick={handleClick}
               />
 
-              {success && (
-                <div className="alert alert-success" role="alert">
-                  Tu solicitud fue enviada con exito!
+              <div className="row pt-1">
+                <div className="col-12 col-lg-8">
+                  {error && (
+                    <div className="alert alert-danger" role="alert">
+                      Tuvimos un problema con tu solicitud!
+                    </div>
+                  )}
                 </div>
-              )}
-
-              {error && (
-                <div className="alert alert-danger" role="alert">
-                  Tuvimos un problema para procesar tu solicitud!
-                </div>
-              )}
+              </div>
             </div>
           </div>
         </div>
