@@ -16,8 +16,9 @@ function Nav() {
             />
           </NavLink>
         </div>
+
         <button
-          class="navbar-toggler"
+          class="custom-toggler navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
