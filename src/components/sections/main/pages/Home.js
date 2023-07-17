@@ -41,7 +41,7 @@ function PagePrincipal(promps) {
           <img
             src={primerSlide}
             className="img-slide-home d-block w-100 h-100"
-            alt="..."
+            alt="casa vidreada"
           />
         </div>
         <div className="carousel-item w-100 h-100" data-bs-interval="3000">
@@ -49,7 +49,7 @@ function PagePrincipal(promps) {
           <img
             src={segundoSlide}
             className="img-slide-home d-block w-100 h-100"
-            alt="..."
+            alt="muro interior de hormigon rustico con una lampara y ventan"
           />
         </div>
         <div className="carousel-item w-100 h-100" data-bs-interval="3000">
@@ -57,7 +57,7 @@ function PagePrincipal(promps) {
           <img
             src={tercerSlide}
             className="img-slide-home d-block w-100 h-100"
-            alt="..."
+            alt="casa estilo fabrica sobresaliendo en un monte pradera"
           />
         </div>
       </div>

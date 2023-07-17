@@ -132,7 +132,11 @@ function Form(params) {
         </div>
 
         <div className="col col-lg-6 d-none d-lg-flex justify-content-start align-items-center">
-          <img src={primerSlide} className="w-75 align-self-center"></img>
+          <img
+            src={primerSlide}
+            alt="estructura minimalista hormigon rustico pasisaje nieve"
+            className="w-75 align-self-center"
+          ></img>
         </div>
       </div>
     </div>
