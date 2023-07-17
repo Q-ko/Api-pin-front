@@ -68,29 +68,39 @@ function RegisterForm(promps) {
               ></textarea>
             </div>
 
-            {promps.showDiv && promps.existMail && (
-              <div className="">
-                <h4 className="font-fam">
-                  Es un gusto volver a verte por aca!
-                  {promps.userData.nombre}
-                  <br></br> En que podemos ayudarte?
-                </h4>
-              </div>
-            )}
-
-            <div className="mb-3">
-              <label for="comentario" className="form-label font-fam">
-                Comentario
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="comentario"
-                onChange={promps.handleChange}
-                value={promps.userData.comentario}
-              />
+<<<<<<< HEAD
+          {promps.showDiv && promps.existMail && (
+            <div className="">
+              <h4 className="font-fam">
+                Es un gusto volver a verte por aca!
+                {promps.userData.nombre}
+                <br></br> En que podemos ayudarte?
+              </h4>
             </div>
+          )}
 
+          <div className="mb-3">
+            <label for="comentario" className="form-label font-fam">
+              Comentario
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="comentario"
+              onChange={promps.handleChange}
+              value={promps.userData.comentario}
+            />
+          </div>
+
+          <button
+            type="submit"
+            className={`button-form ${promps.buttonState} ${
+              promps.isClicked ? "onclic" : ""
+            }`}
+            onClick={promps.handleClick}
+          ></button>
+        </form>
+=======
             <button
               type="submit"
               className={`button-form ${promps.buttonState} ${
@@ -100,6 +110,7 @@ function RegisterForm(promps) {
             ></button>
           </form>
         </div>
+>>>>>>> 4276cd341c36c93a2b516ac85e1e14929d75f09a
       </div>
     </div>
   );
