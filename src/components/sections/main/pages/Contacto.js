@@ -1,4 +1,4 @@
-import primerSlide from "../../../media/slide-1.jpeg";
+import primerSlide from "../../../media/img-contact.jpg";
 import axios from "axios";
 import { useState } from "react";
 import RegisterForm from "../components/RegisterForm";

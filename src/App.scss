@@ -34,7 +34,7 @@ $spacers: (
 );
 
 .bg {
-  background-color: #d6e0ee;
+  background: linear-gradient($light, #717171);
 }
 header {
   position: absolute;
@@ -60,9 +60,7 @@ header {
     }
 
     .offcanvas {
-      background-image: url("./components/media/offcanvas.png");
-      background-repeat: no-repeat;
-      background-size: cover;
+      background: linear-gradient($light, #717171);
     }
     .width-navbar {
       width: 27%;
@@ -187,7 +185,7 @@ main {
       width: 80%;
     }
     .bg-img {
-      background-image: url(./components/media/slide-2.png);
+      background-image: url(./components/media/img-serv.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -353,7 +351,7 @@ main {
 
     .form-container {
       background: linear-gradient(#212121, #212121) padding-box,
-        linear-gradient(145deg, transparent 35%, $info, $warning) border-box;
+        linear-gradient(145deg, transparent 35%, $info, $green) border-box;
       padding: 1.3rem 2.7rem;
       border: 2px solid transparent;
       font-size: 14px;
