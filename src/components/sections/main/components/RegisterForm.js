@@ -5,7 +5,9 @@ function RegisterForm(promps) {
         <div class="form-container">
           <form class="form" onSubmit={promps.handleSubmit}>
             <div class="form-group">
-              <label for="email">Company Email</label>
+              <label for="email" class="form-label font-fam">
+                Email
+              </label>
               <input
                 type="email"
                 className="form-control"
@@ -56,7 +58,9 @@ function RegisterForm(promps) {
             )}
 
             <div class="form-group">
-              <label for="textarea">How Can We Help You?</label>
+              <label for="comentario" class="form-label font-fam">
+                Como podemos ayudarte?
+              </label>
               <textarea
                 type="text"
                 className="form-control"
