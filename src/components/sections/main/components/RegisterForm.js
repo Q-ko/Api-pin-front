@@ -50,9 +50,11 @@ function RegisterForm(promps) {
             {promps.showDiv && promps.existMail && (
               <div className="">
                 <h4 className="font-fam">
-                  Es un gusto volver a verte por aca!
-                  {promps.userData.nombre}
-                  <br></br> En que podemos ayudarte?
+                  Es un gusto volver a verte por aca{" "}
+                  <strong className="text-info text-capitalize">
+                    {promps.userData.nombre}
+                  </strong>
+                  !
                 </h4>
               </div>
             )}
