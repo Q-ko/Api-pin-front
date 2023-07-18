@@ -1,5 +1,5 @@
 import React from "react";
-
+import logoOffcanvas from "../../../media/logo-invert.png";
 import { NavLink } from "react-router-dom";
 import logoSmall from "../../../media/logo_small.png";
 
@@ -34,9 +34,15 @@ function Nav() {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            {/* <h5
+              class="offcanvas-title text-warning fw-bold font-fam"
+              id="offcanvasNavbarLabel"
+            >
               Menu
-            </h5>
+            </h5> */}
+            <div className="">
+              <img src={logoOffcanvas} className="width-logo" alt="" />
+            </div>
             <button
               type="button"
               class="btn-close"
