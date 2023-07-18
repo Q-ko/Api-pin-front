@@ -12,7 +12,7 @@ function TextoDeBienvenida(promps) {
         </div>
         <div className="row d-flex flex-column align-items-start justify-content-center my-2">
           <div className="col-12 col-lg-4">
-            <p className=" font-fam text-secondary text-center text-lg-start">
+            <p className=" font-fam text-secondary text-center fw-medium text-lg-start">
               Como uno de los mejores agentes inmobiliarios de Argentina,
               Salvatore Ferragamo y su equipo en Chilling Real State lo ayudarán
               a encontrar lo que está buscando.

@@ -52,27 +52,27 @@ function Nav() {
                   className="nav-link text-info active"
                   aria-current="page"
                 >
-                  Home
+                  <span className="text-shadow">Home</span>
                 </NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to="/servicios" className="nav-link text-info">
-                  Servicios
+                  <span className="text-shadow">Servicios</span>
                 </NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to="/productos" className="nav-link text-info">
-                  Destinos de Ensueño
+                  <span className="text-shadow">Destinos de Ensueño</span>
                 </NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to="/nosotros" className="nav-link text-info">
-                  Nosotros
+                  <span className="text-shadow">Nosotros</span>
                 </NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to="/contacto" className="nav-link text-info">
-                  Contacto
+                  <span className="text-shadow">Contacto</span>
                 </NavLink>
               </li>
             </ul>

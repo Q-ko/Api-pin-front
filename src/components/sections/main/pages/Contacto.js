@@ -104,7 +104,9 @@ function Form(params) {
         <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center ms-0 ps-0 h-100">
           <div className="row h-100">
             <div className="col-12 d-flex flex-column justify-content-center">
-              <h2 className="fw-bold font-fam text-info ps-1">Contacto</h2>
+              <h2 className="fw-bold font-fam text-info ps-1 sombra-contact">
+                Contacto
+              </h2>
             </div>
             <div className="col-12">
               <RegisterForm

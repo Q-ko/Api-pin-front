@@ -1,5 +1,5 @@
 $primary: #3a3a3f;
-$secondary: #dac6ac;
+$secondary: #ece6de;
 $light: #aaaabc;
 $success: #433924;
 $info: #efa747;
@@ -52,6 +52,9 @@ header {
 
     .nav-link {
       font-family: "fuente-nav", sans-serif;
+      .text-shadow {
+        text-shadow: 3px 4px 12px #000000;
+      }
     }
     .navbar-toggler {
       border-color: $info;
@@ -72,7 +75,7 @@ header {
     }
 
     .offcanvas {
-      background: linear-gradient($light, #717171);
+      background: linear-gradient(#9797a5, #4b4b4b);
     }
     .width-navbar {
       width: 27%;
@@ -87,7 +90,7 @@ header {
 
 main {
   .font-fam {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", "sweet-sans-pro", sans-serif;
   }
   .sombra {
     box-shadow: -12px -12px 20px -0.29rem rgba($color: #000000, $alpha: 0.7);
@@ -298,6 +301,9 @@ main {
     }
   }
   .contacto {
+    .sombra-contact {
+      text-shadow: 8px 7px 10px #000000;
+    }
     .button-form {
       outline: none;
       height: 40px;
